@@ -1,3 +1,5 @@
 /.gitattributes export-ignore
 /.github export-ignore
 
+# .gitattributes
+public/css/app.css text eol=lf

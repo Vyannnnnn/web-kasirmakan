@@ -12,4 +12,5 @@ $routes->get('admin-dashboard/laporan', 'LaporanController::index');
 $routes->get('admin-dashboard/profile', 'ProfileController::index');
 $routes->get('landing-page/login', 'LoginController::index');
 $routes->get('landing-page/register', 'RegisterController::index');
+$routes->get('admin-dashboard/tambahTransaksi', 'tambahTransaksiController::index');
 

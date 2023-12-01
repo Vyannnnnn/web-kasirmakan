@@ -19,7 +19,7 @@
         <li class="text-gray-600 mr-2 font-medium">/</li>
         <li class="text-gray-600 mr-2 font-medium">Laporan</li>
       </ul>
-     
+
     </div>
     <!-- table  -->
     <div class="py-4 px-28 lg:mt-24">
@@ -89,28 +89,21 @@
                 Id
               </th>
               <th scope="col" class="px-4 py-3">
-                Nama
+                Menu
               </th>
               <th scope="col" class="px-4 py-3">
-                Pesanan
+                Harga
+              </th>
+
+              <th scope="col" class="px-4 py-3">
+                Stok
               </th>
               <th scope="col" class="px-4 py-3">
-                No. Meja
+                Terjual
               </th>
+              
               <th scope="col" class="px-4 py-3">
-                Tanggal
-              </th>
-              <th scope="col" class="px-4 py-3">
-                Total
-              </th>
-              <th scope="col" class="px-4 py-3">
-                Jumlah
-              </th>
-              <th scope="col" class="px-4 py-3">
-                Pembayaran
-              </th>
-              <th scope="col" class="px-4 py-3">
-                Dine in / Take away
+                Deskripsi
               </th>
               <th scope="col" class="px-4 py-3">
                 Aksi
@@ -127,28 +120,19 @@
               </td>
 
               <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
                 Nasi Goreng
               </td>
               <td class="px-4 py-4">
-                10
+                Rp10000,00
               </td>
               <td class="px-4 py-4">
-                12/12/2023
+                12
               </td>
               <td class="px-4 py-4">
-                Rp22000,00
+                120
               </td>
               <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
-                Cash
-              </td>
-              <td class="px-4 py-4">
-                Dine In
+                Nasi goreng campur telur dan teri
               </td>
               <td class="px-4 py-4 text-sm whitespace-nowrap">
                 <div class="flex items-center gap-x-6">
@@ -176,28 +160,19 @@
               </td>
 
               <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
                 Nasi Goreng
               </td>
               <td class="px-4 py-4">
-                10
+                Rp10000,00
               </td>
               <td class="px-4 py-4">
-                12/12/2023
+                12
               </td>
               <td class="px-4 py-4">
-                Rp22000,00
+                120
               </td>
               <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
-                Cash
-              </td>
-              <td class="px-4 py-4">
-                Dine In
+                Nasi goreng campur telur dan teri
               </td>
               <td class="px-4 py-4 text-sm whitespace-nowrap">
                 <div class="flex items-center gap-x-6">
@@ -225,28 +200,19 @@
               </td>
 
               <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
                 Nasi Goreng
               </td>
               <td class="px-4 py-4">
-                10
+                Rp10000,00
               </td>
               <td class="px-4 py-4">
-                12/12/2023
+                12
               </td>
               <td class="px-4 py-4">
-                Rp22000,00
+                120
               </td>
               <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
-                Cash
-              </td>
-              <td class="px-4 py-4">
-                Dine In
+                Nasi goreng campur telur dan teri
               </td>
               <td class="px-4 py-4 text-sm whitespace-nowrap">
                 <div class="flex items-center gap-x-6">
@@ -274,28 +240,19 @@
               </td>
 
               <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
                 Nasi Goreng
               </td>
               <td class="px-4 py-4">
-                10
+                Rp10000,00
               </td>
               <td class="px-4 py-4">
-                12/12/2023
+                12
               </td>
               <td class="px-4 py-4">
-                Rp22000,00
+                120
               </td>
               <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
-                Cash
-              </td>
-              <td class="px-4 py-4">
-                Dine In
+                Nasi goreng campur telur dan teri
               </td>
               <td class="px-4 py-4 text-sm whitespace-nowrap">
                 <div class="flex items-center gap-x-6">
@@ -323,28 +280,19 @@
               </td>
 
               <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
                 Nasi Goreng
               </td>
               <td class="px-4 py-4">
-                10
+                Rp10000,00
               </td>
               <td class="px-4 py-4">
-                12/12/2023
+                12
               </td>
               <td class="px-4 py-4">
-                Rp22000,00
+                120
               </td>
               <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
-                Cash
-              </td>
-              <td class="px-4 py-4">
-                Dine In
+                Nasi goreng campur telur dan teri
               </td>
               <td class="px-4 py-4 text-sm whitespace-nowrap">
                 <div class="flex items-center gap-x-6">
@@ -372,28 +320,19 @@
               </td>
 
               <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
                 Nasi Goreng
               </td>
               <td class="px-4 py-4">
-                10
+                Rp10000,00
               </td>
               <td class="px-4 py-4">
-                12/12/2023
+                12
               </td>
               <td class="px-4 py-4">
-                Rp22000,00
+                120
               </td>
               <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
-                Cash
-              </td>
-              <td class="px-4 py-4">
-                Dine In
+                Nasi goreng campur telur dan teri
               </td>
               <td class="px-4 py-4 text-sm whitespace-nowrap">
                 <div class="flex items-center gap-x-6">
@@ -421,28 +360,19 @@
               </td>
 
               <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
                 Nasi Goreng
               </td>
               <td class="px-4 py-4">
-                10
+                Rp10000,00
               </td>
               <td class="px-4 py-4">
-                12/12/2023
+                12
               </td>
               <td class="px-4 py-4">
-                Rp22000,00
+                120
               </td>
               <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
-                Cash
-              </td>
-              <td class="px-4 py-4">
-                Dine In
+                Nasi goreng campur telur dan teri
               </td>
               <td class="px-4 py-4 text-sm whitespace-nowrap">
                 <div class="flex items-center gap-x-6">
@@ -470,28 +400,19 @@
               </td>
 
               <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
                 Nasi Goreng
               </td>
               <td class="px-4 py-4">
-                10
+                Rp10000,00
               </td>
               <td class="px-4 py-4">
-                12/12/2023
+                12
               </td>
               <td class="px-4 py-4">
-                Rp22000,00
+                120
               </td>
               <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
-                Cash
-              </td>
-              <td class="px-4 py-4">
-                Dine In
+                Nasi goreng campur telur dan teri
               </td>
               <td class="px-4 py-4 text-sm whitespace-nowrap">
                 <div class="flex items-center gap-x-6">
@@ -519,28 +440,19 @@
               </td>
 
               <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
                 Nasi Goreng
               </td>
               <td class="px-4 py-4">
-                10
+                Rp10000,00
               </td>
               <td class="px-4 py-4">
-                12/12/2023
+                12
               </td>
               <td class="px-4 py-4">
-                Rp22000,00
+                120
               </td>
               <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
-                Cash
-              </td>
-              <td class="px-4 py-4">
-                Dine In
+                Nasi goreng campur telur dan teri
               </td>
               <td class="px-4 py-4 text-sm whitespace-nowrap">
                 <div class="flex items-center gap-x-6">
@@ -559,58 +471,12 @@
               </td>
 
             </tr>
-            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-              <td class="w-4 p-4">
-                <div class="flex items-center">
-                  <input id="checkbox-table-search-1" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                  <label for="checkbox-table-search-1" class="sr-only">checkbox</label>
-                </div>
-              </td>
-
-              <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
-                Nasi Goreng
-              </td>
-              <td class="px-4 py-4">
-                10
-              </td>
-              <td class="px-4 py-4">
-                12/12/2023
-              </td>
-              <td class="px-4 py-4">
-                Rp22000,00
-              </td>
-              <td class="px-4 py-4">
-                1
-              </td>
-              <td class="px-4 py-4">
-                Cash
-              </td>
-              <td class="px-4 py-4">
-                Dine In
-              </td>
-              <td class="px-4 py-4 text-sm whitespace-nowrap">
-                <div class="flex items-center gap-x-6">
-                  <button class="text-gray-500 transition-colors duration-200 dark:hover:text-red-500 dark:text-gray-300 hover:text-red-500 focus:outline-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
-                    </svg>
-                  </button>
-
-                  <button class="text-gray-500 transition-colors duration-200 dark:hover:text-yellow-500 dark:text-gray-300 hover:text-yellow-500 focus:outline-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
-                    </svg>
-                  </button>
-                </div>
-              </td>
-
-            </tr>
-
+           
+            
+            
           </tbody>
         </table>
+        
       </div>
 
 
@@ -619,7 +485,11 @@
     </div>
     <!-- end table -->
 
-    <div class="flex justify-center mt-36">
+    <div class="flex justify-end mr-28 mt-8">
+      <a href="tambahTransaksi" type="submit" class="text-white bg-primary hover:bg-opacity-90 focus:ring-4 focus:outline-none focus:ring-primary font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Tambah</a>
+      </div>
+
+    <div class="flex justify-center mt-36 pb-10">
       <a href="#" class="px-4 py-2 mx-1 text-gray-500 capitalize bg-white rounded-md cursor-not-allowed dark:bg-gray-800 dark:text-gray-600">
         <div class="flex items-center -mx-1">
           <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-1 rtl:-scale-x-100" fill="none" viewBox="0 0 24 24" stroke="currentColor">

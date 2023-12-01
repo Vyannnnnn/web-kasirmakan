@@ -21,35 +21,10 @@
       </ul>
       
     </div>
-    <!-- form input  -->
-
-
-
-    <form class="max-w-md ml-28 mt-10 mx-28">
-      <div class="relative z-0 w-full mb-5 group">
-        <input type="text" name="pesanan" id="pesanan" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-primary peer" placeholder=" " required />
-        <label for="pesanan" class="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Pesanan</label>
-      </div>
-      <div class="relative z-0 w-full mb-5 group">
-        <input type="text" name="harga" id="harga" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-primary peer" placeholder=" " required />
-        <label for="harga" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Harga</label>
-      </div>
-      <div class="relative z-0 w-full mb-5 group">
-        <input type="text" name="jumlah" id="jumlah" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white  focus:outline-none focus:ring-0 focus:border-primary peer" placeholder=" " required />
-        <label for="jumlah" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-primary peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Jumlah</label>
-      </div>
-      
-      
-      
-      <button type="submit" class="text-white bg-primary hover:bg-opacity-90 focus:ring-4 focus:outline-none focus:ring-primary font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Bayar</button>
-    </form>
-
-
-    <!-- form input end -->
 
     <!-- table -->
 
-    <div class="py-4 px-28 lg:mt-8">
+    <div class="py-4 px-28 lg:mt-24">
       <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
         <div class="flex flex-column sm:flex-row flex-wrap space-y-4 sm:space-y-0 items-center justify-between pb-4">
           <div>
@@ -541,13 +516,15 @@
         </table>
       </div>
       <div class="flex justify-end mt-8">
-      <button type="submit" class="text-white bg-primary hover:bg-opacity-90 focus:ring-4 focus:outline-none focus:ring-primary font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Tambah</button>
+      <a href="tambahTransaksi" type="submit" class="text-white bg-primary hover:bg-opacity-90 focus:ring-4 focus:outline-none focus:ring-primary font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Tambah</a>
       </div>
 
 
 
 
     </div>
+
+    
 
     <!-- table end -->
 
@@ -598,6 +575,9 @@
     </div>
   </main>
   <!-- end: Main -->
+
+  
+  
 
   <script src="https://unpkg.com/@popperjs/core@2"></script>
   <script src="<?= base_url('./js/script.js') ?>"></script>
