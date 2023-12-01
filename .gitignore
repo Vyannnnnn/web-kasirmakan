@@ -164,6 +164,15 @@ logs/
 *.mov
 
 
+# .gitignore
+composer.lock
+mix-manifest.json
+package-lock.json
+package.json
+public/css/app.css
+public/js/app.js
+tailwind.config.js
+yarn.lock
 
 
 
