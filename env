@@ -141,3 +141,6 @@
 #--------------------------------------------------------------------
 
 # curlrequest.shareOptions = true
+
+# Buka file .env
+# CI_ENVIRONMENT = development
