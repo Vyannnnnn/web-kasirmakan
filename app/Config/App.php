@@ -179,4 +179,5 @@ class App extends BaseConfig
     // tampilakn error
     public $displayErrorDetails = true;
 
+    public $environment = 'development';
 }

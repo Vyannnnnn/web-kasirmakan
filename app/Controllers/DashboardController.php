@@ -10,4 +10,8 @@ class DashboardController extends BaseController
         echo view('admin-dashboard/sideBar');
         echo view('admin-dashboard/dashboard');
     }
+    public function sideBar()
+    {
+        echo view('admin-dashboard/sideBar');
+    }
 }

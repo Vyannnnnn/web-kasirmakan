@@ -36,6 +36,7 @@ class Routing extends BaseRouting
      * Default: 'App\Controllers'
      */
     public string $defaultNamespace = 'App\Controllers';
+    // public string $defaultNamespace = 'App\Controllers/';
 
     /**
      * The default controller to use when no other controller has been
@@ -89,6 +90,7 @@ class Routing extends BaseRouting
      * If FALSE, will stop searching and do NO automatic routing.
      */
     public bool $autoRoute = false;
+    // public bool $autoRoute = true;
 
     /**
      * If TRUE, will enable the use of the 'prioritize' option

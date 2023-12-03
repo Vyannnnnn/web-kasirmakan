@@ -34,12 +34,12 @@
 
               </a>
             </li>
-            <li>
+            <!-- <li>
               <a href="landing-page/register" class=" py-2 pr-4 text-base font-medium text-center text-dark hover:text-primary">
                 Daftar
 
               </a>
-            </li>
+            </li> -->
 
           </ul>
         </div>
