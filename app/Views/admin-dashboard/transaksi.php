@@ -7,62 +7,6 @@
 
 <body>
 
-  <!-- start: Sidebar -->
-  <div class="fixed left-0 top-0 w-64 h-full bg-gray-900 p-4 z-50 sidebar-menu transition-transform">
-    <a href="laporan" class="flex items-center pb-4 border-b border-b-gray-800">
-      <img src="/img/logo.png" alt="" class="w-14 h-14 rounded object-cover">
-      <span class="text-lg font-bold text-white ml-3">kasirmakan</span>
-    </a>
-    <ul class="mt-4">
-      <li class="mb-1 group "> <!-- tambahkan active jika ingin melihat menu yg sedang aktif -->
-        <a href="dashboard" class="flex items-center py-2 px-4 text-gray-300 hover:bg-yellow-600 hover:text-gray-100 rounded-md group-[.active]:bg-gray-800 group-[.active]:text-white group-[.selected]:bg-gray-950 group-[.selected]:text-gray-100">
-          <i class="ri-home-4-fill mr-3 text-lg"></i>
-          <span class="text-sm">Dashboard</span>
-        </a>
-      </li>
-      <li class="mb-1 group">
-        <a href="transaksi" class="flex items-center py-2 px-4 hover:bg-yellow-600 text-gray-300  hover:text-gray-100 rounded-md group-[.active]:bg-gray-800 group-[.active]:text-white group-[.selected]:bg-gray-950 group-[.selected]:text-gray-100 ">
-          <i class="ri-currency-fill mr-3 text-lg"></i>
-          <span class="text-sm">Transaksi</span>
-          <!-- <i class="ri-arrow-right-s-line ml-auto group-[.selected]:rotate-90"></i> -->
-        </a>
-
-      </li>
-      <li class="mb-1 group">
-        <a href="laporan" class="flex items-center py-2 px-4 hover:bg-yellow-600 text-gray-300 hover:bg-gray-950 hover:text-gray-100 rounded-md group-[.active]:bg-gray-800 group-[.active]:text-white group-[.selected]:bg-gray-950 group-[.selected]:text-gray-100 ">
-          <i class="ri-file-chart-fill mr-3 text-lg"></i>
-          <span class="text-sm">Laporan</span>
-          <!-- <i class="ri-arrow-right-s-line ml-auto group-[.selected]:rotate-90"></i> -->
-        </a>
-
-      </li>
-      <li class="mb-1 group">
-        <a href="profile" class="flex items-center py-2 px-4 hover:bg-yellow-600 text-gray-300 hover:bg-gray-950 hover:text-gray-100 rounded-md group-[.active]:bg-gray-800 group-[.active]:text-white group-[.selected]:bg-gray-950 group-[.selected]:text-gray-100">
-          <i class="ri-user-3-fill mr-3 text-lg"></i>
-          <span class="text-sm">Profile</span>
-        </a>
-      </li>
-
-    </ul>
-    <div class="mt-6">
-
-
-      <div class="flex mx-4 items-center justify-between mt-[650px]  text-gray-300">
-        <div class="flex items-center gap-x-2">
-          <img class="object-cover rounded-full h-7 w-7" src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&h=634&q=80" alt="avatar" />
-          <span class="text-sm font-medium ">Joko Kendil</span>
-        </div>
-        <?php if (logged_in()) : ?>
-          <a href="/logout">
-            <i class="ri-logout-box-r-fill text-lg"></i>
-          </a>
-        <?php endif; ?>
-      </div>
-    </div>
-  </div>
-  <div class="fixed top-0 left-0 w-full h-full bg-black/50 z-40 md:hidden sidebar-overlay"></div>
-  <!-- end: Sidebar -->
-
   <!-- start: Main -->
   <main class="w-full md:w-[calc(100%-256px)] md:ml-64 bg-gray-100 min-h-screen transition-all main ">
     <div class="py-2 px-6 bg-white flex items-center shadow-md shadow-black/5 sticky top-0 left-0 z-30">
@@ -183,13 +127,6 @@
             <tbody>
               <?php foreach ($transaksi as $data) : ?>
                 <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                  <!-- <td class="w-4 p-4">
-                <div class="flex items-center">
-                  <input id="checkbox-table-search-1" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                  <label for="checkbox-table-search-1" class="sr-only">checkbox</label>
-                </div>
-              </td> -->
-
                   <td class="px-4 py-4">
                     <?= $data['idTransaksi']; ?>
                   </td>

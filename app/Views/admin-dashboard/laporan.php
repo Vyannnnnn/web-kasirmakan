@@ -17,7 +17,7 @@
           <a href="#" class="text-gray-400 hover:text-gray-600 font-medium">Admin</a>
         </li>
         <li class="text-gray-600 mr-2 font-medium">/</li>
-        <li class="text-gray-600 mr-2 font-medium">Laporan</li>
+        <li class="text-gray-600 mr-2 font-medium">Menu Resto</li>
       </ul>
 
     </div>

@@ -7,11 +7,6 @@
 
     protected $table = 'menu';
     protected $primaryKey = 'idMenu';
-
     protected $allowedFields = ['idMenu','namaMenu','harga','stok','deskripsi','terjual'];
  
-//  public function getMenu()
-//  {
-//     return $this->findAll();
-//  }
 }

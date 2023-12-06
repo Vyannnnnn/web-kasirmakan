@@ -10,4 +10,3 @@ class TransaksiModel extends Model
     protected $primaryKey = 'idTransaksi';
     protected $allowedFields = ['idMenu','namaPemesan', 'pesanan','harga', 'noMeja', 'tanggal','total','jumlah','metodePembayaran','keterangan'];
 }
-//  idtransaksi belom ditambahkan

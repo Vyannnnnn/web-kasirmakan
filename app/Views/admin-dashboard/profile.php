@@ -21,92 +21,58 @@
         <li class="text-gray-600 mr-2 font-medium">/</li>
         <li class="text-gray-600 mr-2 font-medium">Profile</li>
       </ul>
-      
+
     </div>
+
+
 
     <!-- form  -->
     <div class="py-4 px-36 lg:py-14 flex justify-center">
-      <div class="relative overflow-x-auto max-w-2xl shadow-md ">
+      <div class="relative overflow-x-auto max-w-5xl shadow-md ">
 
-        <form class="lg:bg-gray-200 max-w-4xl py-7 px-10">
-          <div class="space-y-12">
+        <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+          <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+              <th scope="col" class="px-4 py-3">ID</th>
+              <th scope="col" class="px-4 py-3">Nama Pengguna</th>
+              <th scope="col" class="px-4 py-3">Email</th>
+              <th scope="col" class="px-4 py-3">Alamat</th>
+              <th scope="col" class="px-4 py-3">Kota</th>
+              <th scope="col" class="px-4 py-3">Provinsi</th>
+              <th scope="col" class="px-4 py-3">Kode Pos</th>
+              <th scope="col" class="px-4 py-3">Aksi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <?php foreach ($profile as $data) : ?>
+              <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                <td class="px-4 py-4"><?= $data['id']; ?></td>
+                <td class="px-4 py-4"><?= $data['username']; ?></td>
+                <td class="px-4 py-4"><?= $data['email']; ?></td>
+                <td class="px-4 py-4"><?= $data['alamat']; ?></td>
+                <td class="px-4 py-4"><?= $data['kota']; ?></td>
+                <td class="px-4 py-4"><?= $data['provinsi']; ?></td>
+                <td class="px-4 py-4"><?= $data['kode_pos']; ?></td>
+                <td class="px-4 py-4 text-sm whitespace-nowrap">
+                    <div class="flex items-center gap-x-6">
+                      <a href="<?= base_url('');?>" class="text-gray-500 transition-colors duration-200 dark:hover:text-red-500 dark:text-gray-300 hover:text-red-500 focus:outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
+                        </svg>
+                      </a>
 
-            <div class="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
-              <div class="col-span-full">
-                <label for="photo" class="block text-sm font-medium leading-6 text-gray-900">Photo</label>
-                <div class="mt-2 flex items-center gap-x-3">
-                  <svg class="h-16 w-16 text-gray-300" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                    <path fill-rule="evenodd" d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" clip-rule="evenodd" />
-                  </svg>
-                  <div class=" flex text-sm leading-6 text-gray-600">
-                    <label for="file-upload" class="relative cursor-pointer rounded-md  bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50  focus-within:outline-none focus-within:ring-2 focus-within:ring-primary focus-within:ring-offset-2 hover:text-primary">
-                      <span>Ubah</span>
-                      <input id="file-upload" name="file-upload" type="file" class="sr-only">
-                    </label>
-                  </div>
-                </div>
-              </div>
-              <div class="sm:col-span-full">
-                <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Nama Pengguna</label>
-                <div class="mt-2">
-                  <input type="text" name="username" id="username" autocomplete="username" class="block w-full border-0 rounded-sm  py-1.5 pl-1 text-gray-900 sm:text-sm sm:leading-6 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-primary">
-                </div>
-              </div>
-              <div class="sm:col-span-full">
-                <label for="password" class="block text-sm font-medium leading-6 text-gray-900">Password</label>
-                <div class="mt-2">
-                  <input type="password" name="password" id="password" autocomplete="current-password" class="shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-primary block w-full border-0 rounded-sm  py-1.5 pl-1 text-gray-900 sm:text-sm sm:leading-6">
-                </div>
-              </div>
-              <div class="sm:col-span-full">
-                <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email</label>
-                <div class="mt-2">
-                  <input type="email" name="email" id="email" autocomplete="current-password" class="shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-primary block w-full border-0 rounded-sm  py-1.5 pl-1 text-gray-900 sm:text-sm sm:leading-6">
-                </div>
-              </div>
-
-
-
-
-            </div>
-
-
-            <div class=" pb-5">
-              <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
-                <div class="col-span-full">
-                  <label for="alamat" class="block text-sm font-medium leading-6 text-gray-900">Alamat</label>
-                  <div class="mt-2">
-                    <input type="text" name="alamat" id="alamat" autocomplete="street-address" class="block w-full rounded-sm border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6">
-                  </div>
-                </div>
-
-                <div class="sm:col-span-2 sm:col-start-1">
-                  <label for="kota" class="block text-sm font-medium leading-6 text-gray-900">Kota</label>
-                  <div class="mt-2">
-                    <input type="text" name="kota" id="kota" autocomplete="address-level2" class="block w-full rounded-sm border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6">
-                  </div>
-                </div>
-
-                <div class="sm:col-span-2">
-                  <label for="provinsi" class="block text-sm font-medium leading-6 text-gray-900">Provinsi</label>
-                  <div class="mt-2">
-                    <input type="text" name="provinsi" id="provinsi" autocomplete="address-level1" class="block w-full rounded-sm border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6">
-                  </div>
-                </div>
-
-                <div class="sm:col-span-2">
-                  <label for="kode-pos" class="block text-sm font-medium leading-6 text-gray-900">Kode Pos</label>
-                  <div class="mt-2">
-                    <input type="text" name="kode-pos" id="kode-pos" autocomplete="postal-code" class="block w-full rounded-sm border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="flex items-center justify-end gap-x-6">
-              <button type="button" class="text-sm font-semibold leading-6 text-gray-900 hover:text-primary">Batal</button>
-              <button type="submit" class="rounded-md bg-primary px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">Simpan</button>
-            </div>
-        </form>
+                      <a href="update" class="text-gray-500 transition-colors duration-200 dark:hover:text-yellow-500 dark:text-gray-300 hover:text-yellow-500 focus:outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
+                        </svg>
+                      </a>
+                    </div>
+                  </td>
+                
+              </tr>
+            <?php endforeach; ?>
+          </tbody>
+        </table>
 
       </div>
 
@@ -115,6 +81,7 @@
 
     </div>
     <!-- end table -->
+
 
   </main>
   <!-- end: Main -->

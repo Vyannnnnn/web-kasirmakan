@@ -16,8 +16,10 @@ $routes->get('admin-dashboard/tambah', 'TransaksiController::tambah');
 $routes->get('admin-dashboard/formMenu', 'LaporanController::formMenu');
 $routes->post('admin-dashboard/store', 'TransaksiController::store');
 $routes->get('admin-dashboard/debug', 'TransaksiController::debug');
-$routes->get('admin-dashboard/sideBar', 'TransaksiController::index');
+$routes->get('admin-dashboard/sideBar', 'DashboardController::sideBar');
 $routes->get('admin-dashboard/tambahTransaksi', 'tambahTransaksiController::index');
 $routes->post('tambah-menu', 'LaporanController::tambahMenu');
 $routes->get('admin-dashboard/tambahMenu', 'tambahMenuController::index');
-
+$routes->get('admin-dashboard/update', 'ProfileController::updateForm');
+$routes->post('update', 'ProfileController::update');
+$routes->get('payment/pay', 'Payment::index');
