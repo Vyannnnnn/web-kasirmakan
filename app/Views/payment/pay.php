@@ -72,7 +72,7 @@
                     <span class="text-5xl font-bold tracking-tight text-gray-900">Rp280000</span>
                     <span class="text-sm font-semibold leading-6 tracking-wide text-gray-600">,00</span>
                   </p>
-                  <a id="pay-button1" class="mt-10 block w-full rounded-md bg-primary px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">Bayar</a>
+                  <a id="pay-button1" class="cursor-pointer mt-10 block w-full rounded-md bg-primary px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">Bayar</a>
                 </div>
               </div>
             </div>
@@ -140,7 +140,7 @@
                     <span class="text-5xl font-bold tracking-tight text-gray-900">Rp3300000</span>
                     <span class="text-sm font-semibold leading-6 tracking-wide text-gray-600">,00</span>
                   </p>
-                  <a id="pay-button2" class="mt-10 block w-full rounded-md bg-primary px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">Bayar</a>
+                  <a id="pay-button2" class="cursor-pointer mt-10 block w-full rounded-md bg-primary px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">Bayar</a>
                 </div>
               </div>
             </div>

@@ -43,7 +43,7 @@
 
     <p class="mt-10 text-center text-sm text-gray-500">
       Belum punya akun ?
-      <a href="register" class="font-semibold leading-6 text-primary hover:text-opacity-80">Daftar sekarang</a>
+      <a href="register" class="font-semibold leading-6 text-primary hover:text-opacity-80">Daftar sekarang</a> 
     </p>
   </div>
 </div>

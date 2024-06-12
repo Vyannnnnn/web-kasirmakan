@@ -270,7 +270,7 @@
           <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Hubungi Kami</h2>
           <p class="mt-2 text-lg leading-8 text-gray-600">Kami disini untukmu ! Apa yang bisa kami bantu?</p>
         </div>
-        <form action="#" method="POST" class="mx-auto max-w-xl mt-10 ">
+        <form action="<?= base_url('contact/sendEmail') ?>" method="POST" class="mx-auto max-w-xl mt-10 ">
           <div class="grid grid-cols-1 gap-x-8 gap-y-6 ">
             <div>
 

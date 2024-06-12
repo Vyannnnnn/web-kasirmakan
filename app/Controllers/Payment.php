@@ -18,7 +18,7 @@ class Payment extends BaseController
         $params = array(
             'transaction_details' => array(
                 'order_id' => rand(),
-                'gross_amount' => 10000,
+                'gross_amount' => 280000,
             )
         );
         $data = [
